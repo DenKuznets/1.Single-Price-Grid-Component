@@ -102,12 +102,17 @@ body {
   padding: 70px 30px 15px;
 }
 
-header,
+.flex {
+  max-width: 375px;
+  margin: auto;
+}
+
+/* header,
 section,
 aside {
   max-width: 400px;
   margin: auto;
-}
+} */
 
 header>*+* {
   margin-top: 20px;
@@ -226,7 +231,7 @@ aside li {
 
   .flex {
     display: flex;
-    width: 800px;
+    max-width: 800px;
     flex-wrap: wrap;
   }
 
