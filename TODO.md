@@ -1,0 +1,1 @@
+uncomment justify-content: center; in container
