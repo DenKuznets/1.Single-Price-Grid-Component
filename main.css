@@ -105,37 +105,31 @@ body {
   margin: auto;
 }
 
-/* header,
-section,
-aside {
-  max-width: 400px;
-  margin: auto;
-} */
-header > * + * {
+main > * + * {
   margin-top: 20px;
 }
 
-/* HEADER */
-header {
+/* MAIN */
+main {
   background-color: white;
   padding: 21px 23px 33px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-header h1 {
+main h1 {
   font-size: var(--font-size-big);
   font-weight: var(--font-weight-bold);
   color: var(--color-primary-cyan);
 }
 
-header h2 {
+main h2 {
   line-height: 125%;
   font-size: var(--font-size-medium);
   color: var(--color-primary-bright-yellow);
 }
 
-header p {
+main p {
   line-height: 175%;
   font-size: var(--font-size-small);
   color: var(--color-neutral-grayish-blue);
