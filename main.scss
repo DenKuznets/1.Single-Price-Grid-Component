@@ -185,10 +185,6 @@ main p {
   color: rgba(255, 255, 255, 0.854);
 }
 
-.cta-button:hover {
-  background-color: rgb(11, 240, 149);
-}
-
 /* ASIDE */
 aside {
   padding: 25px 24px 15px;
@@ -248,8 +244,15 @@ aside li {
 
   .cta {
     border-radius: 0 0 0 .3rem;
+
+    button {
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(11, 240, 149);
+      }
+    }
   }
-  
+
   aside {
     border-radius: 0 0 .3rem 0;
   }
