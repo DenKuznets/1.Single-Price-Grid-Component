@@ -20,8 +20,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role=list],
+ol[role=list] {
   list-style: none;
 }
 
@@ -39,7 +39,8 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -62,21 +63,20 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
-
   *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
+*::before,
+*::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
-
 /* --------------------------------------------- */
 /* ----------------END OF RESETS---------------- */
 /* --------------------------------------------- */
-
 /* Constants */
 :root {
   /* colors */
@@ -85,12 +85,10 @@ select {
   --color-primary-bright-yellow: hsl(71, 73%, 54%);
   --color-neutral-light-gray: hsl(204, 43%, 93%);
   --color-neutral-grayish-blue: hsl(218, 22%, 67%);
-
   /* fonts */
   --font-size-small: 0.9em;
   --font-size-medium: 1em;
   --font-size-big: 1.3em;
-
   --font-weight-normal: 400;
   --font-weight-bold: 700;
 }
@@ -113,19 +111,16 @@ aside {
   max-width: 400px;
   margin: auto;
 } */
-
-header>*+* {
+header > * + * {
   margin-top: 20px;
 }
 
 /* HEADER */
-
 header {
   background-color: white;
   padding: 21px 23px 33px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-
 }
 
 header h1 {
@@ -146,9 +141,7 @@ header p {
   color: var(--color-neutral-grayish-blue);
 }
 
-
 /* HERO */
-
 .hero {
   background-color: var(--color-primary-cyan);
   color: whitesmoke;
@@ -211,7 +204,8 @@ aside h1 {
 }
 
 aside ul {
-  padding-inline-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 aside li {
@@ -228,25 +222,23 @@ aside li {
     align-items: center;
     font-size: 18px;
   }
-
   .flex {
     display: flex;
     max-width: 800px;
     flex-wrap: wrap;
   }
-
-  header, .hero, aside {
+  header,
+.hero,
+aside {
     padding: 50px;
   }
-
   header {
     width: 800px;
     max-width: unset;
   }
-
   .hero,
-  aside {
+aside {
     width: 400px;
     height: 270px;
   }
-}
+}/*# sourceMappingURL=main.css.map */
