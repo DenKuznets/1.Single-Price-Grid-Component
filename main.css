@@ -100,7 +100,7 @@ body {
   padding: 70px 30px 15px;
 }
 
-.flex {
+.container {
   max-width: 375px;
   margin: auto;
 }
@@ -216,7 +216,7 @@ aside li {
     align-items: center;
     font-size: 18px;
   }
-  .flex {
+  .container {
     display: flex;
     max-width: 800px;
     flex-wrap: wrap;
