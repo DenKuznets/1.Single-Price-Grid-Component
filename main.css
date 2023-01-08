@@ -128,11 +128,10 @@ main h2 {
   margin-top: 1.5rem;
   letter-spacing: 0.1px;
 }
-
 main p {
-  line-height: 175%;
-  font-size: var(--font-size-small);
+  line-height: 1.75;
   color: var(--color-neutral-grayish-blue);
+  font-size: 1rem;
 }
 
 /* CTA */
