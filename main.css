@@ -135,40 +135,40 @@ main p {
   color: var(--color-neutral-grayish-blue);
 }
 
-/* HERO */
-.hero {
+/* CTA */
+.cta {
   background-color: var(--color-primary-cyan);
   color: whitesmoke;
   padding: 20px 24px 24px;
 }
 
-.hero div {
+.cta div {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
 
-.hero h2 {
+.cta h2 {
   font-size: 110%;
   font-weight: var(--font-weight-bold);
 }
 
-.hero div h2 {
+.cta div h2 {
   color: rgba(255, 255, 255, 0.307);
 }
 
-.hero span {
+.cta span {
   display: inline-block;
   font-size: 2em;
   font-weight: 700;
   margin-right: 20px;
 }
 
-.hero p {
+.cta p {
   color: rgba(255, 255, 255, 0.744);
 }
 
-.cta {
+.cta-button {
   margin-top: 25px;
   width: 100%;
   height: 3em;
@@ -178,7 +178,7 @@ main p {
   color: rgba(255, 255, 255, 0.854);
 }
 
-.cta:hover {
+.cta-button:hover {
   background-color: rgb(11, 240, 149);
 }
 
@@ -222,7 +222,7 @@ aside li {
     flex-wrap: wrap;
   }
   header,
-.hero,
+.cta,
 aside {
     padding: 50px;
   }
@@ -230,7 +230,7 @@ aside {
     width: 800px;
     max-width: unset;
   }
-  .hero,
+  .cta,
 aside {
     width: 400px;
     height: 270px;
