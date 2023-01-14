@@ -117,7 +117,7 @@ body {
 main {
   background-color: white;
   // padding: 21px 23px 33px;
-  padding: 0 1.6rem;
+  padding: 0 1.6rem 2rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 
@@ -134,48 +134,57 @@ main {
     line-height: 1.35;
     color: var(--color-primary-bright-yellow);
     font-size: 0.9rem;
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
     letter-spacing: 0.1px;
   }
 
   p {
-    line-height: 1.75;
+    margin-top: 1.1rem;
     color: var(--color-neutral-grayish-blue);
-    font-size: 1rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.3px;
+    line-height: 1.8;
   }
 }
 
 /* CTA */
 
 .cta {
+  // margin-top: 1rem;
   background-color: var(--color-primary-cyan);
   color: whitesmoke;
-  padding: 20px 24px 24px;
+  // padding: 20px 24px 24px;
+  padding: 0 1.6rem;
+
+  h2 {
+    margin-top: 1.4rem;
+    font-size: 1.1rem;
+    font-weight: var(--font-weight-bold);
+  }
 }
+
 
 .cta div {
   display: flex;
   align-items: center;
-  margin-top: 10px;
-}
-
-.cta h2 {
-  font-size: 110%;
-  font-weight: var(--font-weight-bold);
-}
-
-.cta div h2 {
-  color: rgba(255, 255, 255, 0.307);
-}
-
-.cta span {
-  display: inline-block;
-  font-size: 2em;
-  font-weight: 700;
-  margin-right: 20px;
+  margin-top: 0.5rem;
+  h2 {
+    margin-top: 0;
+    margin-left: -0.6rem;
+    letter-spacing: -0.4px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.307);
+  }
+  span {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: 20px;
+  }
 }
 
 .cta p {
+  letter-spacing: -0.1px;
   color: rgba(255, 255, 255, 0.744);
 }
 
@@ -187,6 +196,7 @@ main {
   border: none;
   background-color: var(--color-primary-bright-yellow);
   color: rgba(255, 255, 255, 0.854);
+  margin-bottom: 1.5rem;
 }
 
 /* ASIDE */
