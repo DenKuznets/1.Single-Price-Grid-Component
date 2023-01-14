@@ -261,6 +261,8 @@ aside {
   main p {
     margin-top: 0.4rem;
     letter-spacing: -0.3px;
+    font-size: 0.9rem;
+    line-height: 1.7;
   }
   .cta {
     border-radius: 0 0 0 0.3rem;
@@ -292,5 +294,19 @@ aside {
   }
   aside {
     border-radius: 0 0 0.3rem 0;
+    padding: 0 2.3rem;
+  }
+  aside h1 {
+    margin-top: 2rem;
+    letter-spacing: -1.9px;
+  }
+  aside ul {
+    margin-top: 0.9rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  aside li {
+    letter-spacing: -1.3px;
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=main.css.map */
