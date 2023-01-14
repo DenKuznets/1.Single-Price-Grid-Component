@@ -222,6 +222,9 @@ aside li {
 
 /* desktop media queries */
 @media (min-width: 900px) {
+  html {
+    font-size: 18px;
+  }
   body {
     min-height: 100vh;
     display: flex;
@@ -232,26 +235,56 @@ aside li {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 217px 259px;
     max-width: 635px;
     min-height: unset;
-  }
-  main {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-column-end: 3;
   }
   main,
 .cta,
 aside {
     margin-top: 0;
   }
-  header {
-    max-width: unset;
+  main {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    padding: 0.6rem 2.3rem;
+  }
+  main h1 {
+    font-size: 1.3rem;
+  }
+  main h2 {
+    margin-top: 1.1rem;
+    letter-spacing: 0.7px;
+  }
+  main p {
+    margin-top: 0.4rem;
+    letter-spacing: -0.3px;
   }
   .cta {
     border-radius: 0 0 0 0.3rem;
+    padding: 0 2.3rem;
+  }
+  .cta h2 {
+    margin-top: 2.1rem;
+    font-size: 1rem;
+    letter-spacing: -0.3px;
+  }
+  .cta div {
+    font-size: 0.88rem;
+  }
+  .cta div h2 {
+    letter-spacing: -1.8px;
+  }
+  .cta p {
+    letter-spacing: -1.1px;
+    margin-top: -0.1rem;
+  }
+  .cta button {
+    height: 2.7rem;
+    margin-top: 1.4rem;
+    font-size: 0.9rem;
   }
   .cta button:hover {
     cursor: pointer;
