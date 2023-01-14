@@ -155,7 +155,7 @@ main p {
 }
 .cta div h2 {
   margin-top: 0;
-  margin-left: -0.6rem;
+  margin-left: 0.7rem;
   letter-spacing: -0.4px;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.307);
@@ -164,7 +164,6 @@ main p {
   display: inline-block;
   font-size: 2em;
   font-weight: 700;
-  margin-right: 20px;
 }
 
 .cta p {
@@ -173,7 +172,7 @@ main p {
 }
 
 .cta-button {
-  margin-top: 25px;
+  margin-top: 1.6rem;
   width: 100%;
   height: 3em;
   border-radius: 5px;
@@ -185,26 +184,25 @@ main p {
 
 /* ASIDE */
 aside {
-  padding: 25px 24px 15px;
+  padding: 0 1.6rem;
   background-color: var(--color-primary-cyan-light);
   color: whitesmoke;
-  font-size: 90%;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-
 aside h1 {
-  font-size: 122%;
-  margin-bottom: 20px;
+  font-size: 1.1rem;
+  margin-top: 1.4rem;
 }
-
 aside ul {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  -webkit-padding-start: 0.1rem;
+          padding-inline-start: 0.1rem;
 }
-
 aside li {
-  margin: -3px;
+  margin-top: -0.2rem;
+  line-height: 1.45;
+  letter-spacing: -1.1px;
+  font-size: 1rem;
   list-style: none;
   color: rgba(255, 255, 255, 0.566);
 }

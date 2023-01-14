@@ -168,18 +168,20 @@ main {
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
+
   h2 {
     margin-top: 0;
-    margin-left: -0.6rem;
+    margin-left: 0.7rem;
     letter-spacing: -0.4px;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.307);
   }
+
   span {
     display: inline-block;
     font-size: 2em;
     font-weight: 700;
-    margin-right: 20px;
+    // margin-right: 20px;
   }
 }
 
@@ -189,7 +191,7 @@ main {
 }
 
 .cta-button {
-  margin-top: 25px;
+  margin-top: 1.6rem;
   width: 100%;
   height: 3em;
   border-radius: 5px;
@@ -201,27 +203,31 @@ main {
 
 /* ASIDE */
 aside {
-  padding: 25px 24px 15px;
+  // padding: 25px 24px 15px;
+  padding: 0 1.6rem;
   background-color: var(--color-primary-cyan-light);
   color: whitesmoke;
-  font-size: 90%;
+  // font-size: 90%;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-}
 
-aside h1 {
-  font-size: 122%;
-  margin-bottom: 20px;
-}
+  h1 {
+    font-size: 1.1rem;
+    margin-top: 1.4rem;
+  }
 
-aside ul {
-  padding-inline-start: 0;
-}
+  ul {
+    padding-inline-start: 0.1rem;
+  }
 
-aside li {
-  margin: -3px;
-  list-style: none;
-  color: rgba(255, 255, 255, 0.566);
+  li {
+    margin-top: -0.2rem;
+    line-height: 1.45;
+    letter-spacing: -1.1px;
+    font-size: 1rem;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.566);
+  }
 }
 
 .attribution {
